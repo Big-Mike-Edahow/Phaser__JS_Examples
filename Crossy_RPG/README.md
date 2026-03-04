@@ -1,2 +1,0 @@
-# Crossy RPG
-
