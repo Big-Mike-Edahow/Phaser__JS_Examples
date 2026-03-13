@@ -1,0 +1,1 @@
+# PhaserJS Pixel Art Mode
