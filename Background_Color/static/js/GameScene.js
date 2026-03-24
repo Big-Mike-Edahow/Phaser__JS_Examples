@@ -22,7 +22,7 @@ export default class GameScene extends Phaser.Scene {
         this.objects.camera.zoom = 0.5;
         this.objects.camera.scrollX = 200;
         this.objects.camera.scrollY = 150;
-        this.objects.camera.setBackgroundColor('rgba(255, 0, 0, 0.5)');
+        this.objects.camera.setBackgroundColor('rgba(231, 108, 208, 0.5)');
     }
 
     update() {

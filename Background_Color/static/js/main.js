@@ -7,8 +7,8 @@ function main() {
         type: Phaser.AUTO,
         parent: 'game-canvas',
         scene: GameScene,
-        width: 800,
-        height: 600,
+        width: 640,
+        height: 480,
         title: "Background Color",
         version: "1.0"
     };
