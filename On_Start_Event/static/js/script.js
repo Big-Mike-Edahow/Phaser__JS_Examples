@@ -48,16 +48,12 @@ class OnStartEvent extends Phaser.Scene {
 
         //  Event handler for when the animation completes on our sprite.
         lancelot.on(Phaser.Animations.Events.ANIMATION_START, function () {
-
             this.isRunning = true;
-
         }, this);
 
         //  And a click handler to stop the animation.
         this.input.once('pointerdown', function () {
-
             lancelot.play('run');
-
         });
     }
 
