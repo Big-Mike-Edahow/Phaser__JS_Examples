@@ -1,0 +1,1 @@
+# PhaserJS Sprite Animation Events
