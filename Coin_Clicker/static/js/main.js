@@ -18,13 +18,7 @@ const config = {
             gravity: { y: 400 }
         }
     },
-    scene: [
-        Boot,
-        Preloader,
-        MainMenu,
-        ClickerGame,
-        GameOver
-    ],
+    scene: [Boot, Preloader, MainMenu, ClickerGame, GameOver],
     title: "Coin Clicker",
     version: "1.0",
 };
