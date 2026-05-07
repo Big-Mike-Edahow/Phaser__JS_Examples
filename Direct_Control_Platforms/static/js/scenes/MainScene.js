@@ -17,16 +17,12 @@ export default class MainScene extends Phaser.Scene {
         }
 
         const ground = this.physics.add.staticGroup();
-
         ground.create(64, 170, 'tiles', '3');
         ground.create(64, 550 - 256, 'tiles', '6');
         ground.create(64, 550 - 128, 'tiles', '6');
         ground.create(64, 550, 'tiles', '6');
-        
-       
-
-        // Sign on ground lower right.
         ground.create(736, 470, 'tiles', '1');
+
         this.add.image(720, 375, 'tiles', 'sign2');
 
         const platform1 = this.physics.add.image(600, 135, 'tiles', 'platform1').setScale(0.6).setDirectControl().setImmovable();
