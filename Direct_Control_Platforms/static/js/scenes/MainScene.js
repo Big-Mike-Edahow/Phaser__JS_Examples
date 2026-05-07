@@ -7,7 +7,6 @@ export default class MainScene extends Phaser.Scene {
         this.load.atlas('tiles', 'images/platformer.png', 'data/platformer.json');
         this.load.image('bg', 'images/background.png');
     }
-
     create() {
         this.add.image(400, 255, 'bg').setDisplaySize(800, 510);
 
@@ -22,7 +21,6 @@ export default class MainScene extends Phaser.Scene {
         ground.create(64, 550 - 128, 'tiles', '6');
         ground.create(64, 550, 'tiles', '6');
         ground.create(736, 470, 'tiles', '1');
-
         this.add.image(720, 375, 'tiles', 'sign2');
 
         const platform1 = this.physics.add.image(600, 135, 'tiles', 'platform1').setScale(0.6).setDirectControl().setImmovable();
