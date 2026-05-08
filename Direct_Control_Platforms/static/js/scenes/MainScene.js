@@ -28,7 +28,6 @@ export default class MainScene extends Phaser.Scene {
         const platform3 = this.physics.add.image(200, 400, 'tiles', 'platform1').setScale(0.6).setDirectControl().setImmovable();
 
         this.physics.world.setBounds(0, -400, 800, 910);
-
         this.player = this.physics.add.sprite(64, 32, 'dude')
         .setScale(1.5)
         .setBounce(0.2)
