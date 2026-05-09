@@ -11,7 +11,7 @@ export default class MainScene extends Phaser.Scene {
     }
 
     create() {
-        this.bg = this.add.tileSprite(0, 0, 800, 600, 'bg').setOrigin(0).setScrollFactor(0);
+        this.bg = this.add.tileSprite(0, 0, 800, 510, 'bg').setOrigin(0).setScrollFactor(0);
 
         // Planets.
         const planet1 = this.physics.add.image(100, 100, 'space', 'blue-planet').setScale(0.15).setSize(360, 360).setOffset(400, 400);
