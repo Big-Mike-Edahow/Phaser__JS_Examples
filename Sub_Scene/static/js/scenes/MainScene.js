@@ -1,6 +1,6 @@
-// WorldMap.js
+// MainScene.js
 
-export default class WorldMap extends Phaser.Scene {
+export default class MainScene extends Phaser.Scene {
     bg;
     player;
     cursors;

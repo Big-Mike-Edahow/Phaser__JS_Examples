@@ -1,6 +1,6 @@
-// SubGame.js
+// SubScene.js
 
-export default class SubGame extends Phaser.Scene {
+export default class SubScene extends Phaser.Scene {
     constructor() {
         super({ key: "sub-scene" });
     }
