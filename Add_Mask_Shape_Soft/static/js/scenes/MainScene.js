@@ -1,6 +1,6 @@
 // MainScene.js
 
-export default class Example extends Phaser.Scene {
+export default class MainScene extends Phaser.Scene {
     cougar;
 
     preload() {
