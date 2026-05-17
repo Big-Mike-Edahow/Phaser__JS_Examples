@@ -48,19 +48,17 @@ const Flood = new Phaser.Class({
     create: function () {
         this.add.image(400, 300, 'flood', 'background');
         this.gridBG = this.add.image(400, 600 + 300, 'flood', 'grid');
-
         this.createIcon(this.icon1, 'grey', 16, 156);
         this.createIcon(this.icon2, 'red', 16, 312);
         this.createIcon(this.icon3, 'green', 16, 458);
         this.createIcon(this.icon4, 'yellow', 688, 156);
         this.createIcon(this.icon5, 'blue', 688, 312);
         this.createIcon(this.icon6, 'purple', 688, 458);
-
         this.cursor = this.add.image(16, 156, 'flood', 'cursor-over').setOrigin(0).setVisible(false);
 
         //  14x14 grid with 6 different colors.
         this.grid = [];
-
+        
         for (let x = 0; x < 14; x++) {
             this.grid[x] = [];
             for (let y = 0; y < 14; y++) {
